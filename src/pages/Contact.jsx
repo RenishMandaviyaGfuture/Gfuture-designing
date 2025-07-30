@@ -81,7 +81,7 @@ const Contact = () => {
                 <div className="flex-1">
                   <label className="block text-sm sm:text-base mb-1">Project Budget</label>
                   <select className="w-full px-3 py-2 sm:py-3 rounded-md bg-[#030303] border border-gray-600 text-white">
-                    <option value="" disabled selected>Select an option</option>
+                    <option value="disabled selected" >Select an option</option>
                     <option>$500</option>
                     <option>$1000</option>
                     <option>$1500</option>
